@@ -1,0 +1,1000 @@
+  985  cd Worksheet
+  986  cd Worksheet-5/
+  987  ls
+  988  git status
+  989  git add .
+  990  git commit -m " ws5 assigment output"
+  991  git push https://github.com/S-phan/Worksheet-5.git
+  992  cd ..
+  993  ls
+  994  head ws5.txt
+  995  cd Worksheet-5/
+  996  ls
+  997  git status
+  998  git push 
+  999  git status
+ 1000  git add .
+ 1001  git commit -m " hello "
+ 1002  git push https://github.com/S-phan/Worksheet-5.git
+ 1003  echo `pwd`
+ 1004  echo "pwd"
+ 1005  echo `pwd`
+ 1006  `pwd`
+ 1007  pwd
+ 1008  echo $HOME
+ 1009  ls.[b]ashrc
+ 1010  find  .  -type f -name  "first.cpp"  -exec   rm   {} \;
+ 1011  pwd
+ 1012  cd / 
+ 1013  pwd
+ 1014  ls
+ 1015  cd ~
+ 1016  touch hello?.txt
+ 1017  touch hi?.txt
+ 1018  mkdir yo?
+ 1019  ls
+ 1020  find . -type f -name "?"  -print
+ 1021  vi hello\?.txt 
+ 1022  find . -type f -name "?"  -print
+ 1023  touch ?.txt 
+ 1024  find . -type f -name "?"  -print
+ 1025  find . -type f 
+ 1026  find . -type f -name "?"  
+ 1027  mkdir midterm1
+ 1028  cd midterm1/
+ 1029  touch test1?.txt
+ 1030  find . -type f -name "?"  
+ 1031  cd ..
+ 1032  find . -type f -name "?"  -print
+ 1033  echo "UNIX"
+ 1034  echo "\"UNIXC\""
+ 1035  cat xxx >> zz
+ 1036  touch zz
+ 1037  cat xxx >> zz
+ 1038  ls ??
+ 1039  head zz
+ 1040  ls > Xfile 
+ 1041  head Xfile 
+ 1042  ls [A-Z]
+ 1043  display [AZ]
+ 1044  ls [AZ]
+ 1045  echo $HOME
+ 1046  ls
+ 1047  cat random.txt >> zzz
+ 1048  head zzz
+ 1049  cd midterm1/
+ 1050  ls
+ 1051  touch t.txt
+ 1052  touch ?
+ 1053  ls
+ 1054  find . -type f -name "?" -print
+ 1055  touch t?.txt
+ 1056  find . -type f -name "?" -print
+ 1057  touch !
+ 1058  find . -type f -name "?" -print
+ 1059  ls
+ 1060  find . -type f -name "?" -print
+ 1061  vi t.txt
+ 1062  sort -ro t.txt myfile
+ 1063  ls
+ 1064  cat t.txt
+ 1065  sort -ro t.txt t1.txt
+ 1066  touch t1.txt
+ 1067  sort -ro t.txt t1.txt
+ 1068  cat t1.txt
+ 1069  ls
+ 1070  sort -ro t.txt 
+ 1071  sort -ro t.txt | head
+ 1072  sort -ro t.txt t1.txt
+ 1073  cat t1.txt 
+ 1074  sort -r t.txt -o t1.txt 
+ 1075  cat t1.txt 
+ 1076  cat t.txt 
+ 1077  vi t.txt
+ 1078  cat t.txt 
+ 1079  sort -r t.txt -o t1.txt 
+ 1080  cat t1.txt 
+ 1081  sort -ro t.txt t2.txt
+ 1082  touch t1/txt
+ 1083  touch t2.txt
+ 1084  sort -ro t.txt t2.txt
+ 1085  cat t2.txt 
+ 1086  cat t.txt
+ 1087  ln xxx yyy
+ 1088  df -i 
+ 1089  df -i xxx
+ 1090  ls
+ 1091  df -i t.txt
+ 1092  touch t3/txt
+ 1093  touch t3.txt
+ 1094  touch t4/txt
+ 1095  touch t4.txt
+ 1096  ln t3.txt t4.txt
+ 1097  ln t3.txt t5
+ 1098  ls
+ 1099  df -i d5
+ 1100  df -i t4/txt
+ 1101  df -i t4.txt
+ 1102  wc -l t1.txt
+ 1103  cp t1.txt t.txt
+ 1104  cat t.txt
+ 1105  cp t1.txt t.txt
+ 1106  cat t.txt
+ 1107  mv t1.txt t2.txt
+ 1108  df -i t1.txt
+ 1109  df -i t5
+ 1110  mv t5 t6
+ 1111  df -i t5
+ 1112  df -i t6
+ 1113  wc -l >> t.txt
+ 1114  cat t.txt
+ 1115  wc -l >> t2.txt
+ 1116  wc -l t.txt t.txt
+ 1117  wc -l t.txt t2.txt
+ 1118  cat t2.txt 
+ 1119  wc -l t.txt | tee t2.txt
+ 1120  cat t2.txt 
+ 1121  cut -b 2 t1.txt
+ 1122  cut -b 2 t.txt
+ 1123  cat t.txt
+ 1124  ls
+ 1125  find / -type f -name "t?"
+ 1126  find . -type f -name "t?"
+ 1127  find ./ -type f -name "*.txt" -mtime -1
+ 1128  cp t1.txt t7.txt
+ 1129  cp t.txt t7.txt
+ 1130  df -i t.txt
+ 1131  cat t.txt > t7.txt
+ 1132  cat t7.txt
+ 1133  vi t7.txt
+ 1134  echo $home
+ 1135  ls [A-Z]
+ 1136  touch Linda.txt
+ 1137  ls [A-Z]
+ 1138  ls A ... Z
+ 1139  ls A...Z
+ 1140  ls [AZ]
+ 1141  display [AZ]
+ 1142  vi t7.txt
+ 1143  echo `hello`
+ 1144  echo 'hello'
+ 1145  sort t t.txt
+ 1146  ls
+ 1147  sort t.txt &time
+ 1148  time sort t.txt 
+ 1149  grep t7.txt  "henry"
+ 1150  grep henry t7.txt 
+ 1151  grep henry t7.txt t.txt
+ 1152  grep henry t
+ 1153  grep henry t?
+ 1154  grep henry t*
+ 1155  grep t.txt "henry"
+ 1156  ls henry t?
+ 1157  ls henry t7.txt
+ 1158  pwd
+ 1159  ls
+ 1160  datetime=$(date +%s)
+ 1161  echo datetime
+ 1162  echo $datetime
+ 1163  echo "$now"
+ 1164  datetime=date +'FORMAT'
+ 1165  datetime=date +'%m/%d/%Y'
+ 1166  datetime="$(date)"
+ 1167  echo $datetime
+ 1168  history tail
+ 1169  histroy
+ 1170  history 
+ 1171  echo $datetime
+ 1172  ls
+ 1173  date +"%m-%d-%y"
+ 1174  date +"%m-%d-%Y"
+ 1175  date +"%T"
+ 1176  $(date +"%m-%d-%Y")
+ 1177  (date +"%m-%d-%Y")
+ 1178  crontab -e
+ 1179  ls
+ 1180  cd Worksheet4-/
+ 1181  ls
+ 1182  head product.0300108834.txt 
+ 1183  head product.0262181533.txt 
+ 1184  mv .. product.0262181533.txt 
+ 1185  mv.. product.0262181533.txt 
+ 1186  cd ..
+ 1187  histroy
+ 1188  history
+ 1189  ls
+ 1190  cd Worksheet4-/
+ 1191  ls
+ 1192  mv product.0262181533.txt  ../
+ 1193  cd ..
+ 1194  ls
+ 1195  crontab -e 
+ 1196  crontab -l
+ 1197  crontab -e 
+ 1198  crontab -l
+ 1199  ls
+ 1200  crontab -e 
+ 1201  ls
+ 1202  pwd
+ 1203  crontab -e 
+ 1204  ls
+ 1205  head test3.txt 
+ 1206  crontab -e 
+ 1207  head test
+ 1208  crontab -e 
+ 1209  touch test_cron.txt
+ 1210  ls
+ 1211  head test_cron.txt 
+ 1212  rm test_crom.txt
+ 1213  crontab -e 
+ 1214  head test_cron.txt 
+ 1215  head product_helpfulness_100.txt 
+ 1216  head productid_top3.txt 
+ 1217  head test_cron.txt 
+ 1218  crontab -e 
+ 1219  head test_cron.txt 
+ 1220  crontab -e 
+ 1221  head test_cron.txt 
+ 1222  crontab -e 
+ 1223  head test_cron.txt 
+ 1224  crontab -e 
+ 1225  head test_cron.txt 
+ 1226  crontab -e 
+ 1227  head test_cron.txt 
+ 1228  crontab -e 
+ 1229  count=0; total=0;for i in `cat product.0385730586.txt ` ; do total=$(echo $total+$i | bc);((count++));    done; echo "scale =2; $total / $count" | bc > test3.txt
+ 1230  count=0; total=0;for i in `cat product.0385730586.txt ` ; do total=$(echo $total+$i | bc);((count++)); done; echo "scale =2; $total / $count" | bc > test3.txt
+ 1231  for i in `cat product.0385730586.txt ` ; do total=$(echo $total+$i | bc);
+ 1232  count=0; total=0;
+ 1233  for i in `cat product.0385730586.txt ` ; do total=$(echo $total+$i | bc);((count++));    done;
+ 1234  for i in `cat product.0385730586.txt` ; do total=$(echo $total+$i | bc);((count++));    done;
+ 1235  for i in `cat product.026181533.txt` ; do total=$(echo $total+$i | bc);((count++));    done;
+ 1236  for i in `cat  product.0262181533.txt` ; do total=$(echo $total+$i | bc);((count++));    done;
+ 1237  echo "scale =2; $total / $count" | bc
+ 1238  count=0; total=0;for i in `cat  product.0262181533.txt` ; do total=$(echo $total+$i | bc);((count++));    done;    done; echo "scale =2; $total / $count" | bc
+ 1239  count=0; total=0;for i in `cat  product.0262181533.txt` ; do total=$(echo $total+$i | bc);((count++));  done; echo "scale =2; $total / $count" | bc
+ 1240  crontab -e 
+ 1241  ls
+ 1242  crontab -e 
+ 1243  head test_cron.txt 
+ 1244  count=0; total=0;for i in `cat  home/phans/product.0262181533.txt` ; do total=$(echo $total+$i | bc);((count++));  done; echo "scale =2; $total / $count" | bc > /home/phans/test_cron.txt
+ 1245  count=0; total=0;for i in `cat  home/phans/product.0262181533.txt` ; do total=$(echo $total+$i | bc);((count++));  done; echo "scale =2; $total / $count" | bc
+ 1246  count=0; total=0;for i in `cat  home/phans/product.0262181533.txt` ; do total=$(echo $total+$i | bc);((count++));  done; echo "scale =2; $total / $count" | bc > /home/phans/test_cron.txt
+ 1247  count=0; total=0;for i in `cat  product.0262181533.txt` ; do total=$(echo $total+$i | bc);((count++));  done; echo "scale =2; $total / $count" | bc
+ 1248  count=0; total=0;for i in `cat  product.0262181533.txt` ; do total=$(echo $total+$i | bc);((count++));  done; echo "scale =2; $total / $count" | bc > test3.txt
+ 1249  head test3.txt
+ 1250  head test_cron.txt 
+ 1251  crontab -e 
+ 1252  head test3.txt
+ 1253  crontab -e 
+ 1254  head test_cron.txt 
+ 1255  ls
+ 1256  crontab -e 
+ 1257  pwd
+ 1258  ls
+ 1259  ls -ltr | grep product
+ 1260  home
+ 1261  crontab -e 
+ 1262  head cron_tab.txt 
+ 1263  crontab -e 
+ 1264  head product.0262181533.txt 
+ 1265  head cron_tab.txt 
+ 1266  head cron_tab.txt \
+ 1267  head cron_tab.txt
+ 1268  crontab -e 
+ 1269  awk `{sum+= $1} END {if (NR > 0) print sum / NR }`
+ 1270  awk `{sum+= $1} END {if (NR > 0) print sum / NR }` product.0262181533.txt 
+ 1271  awk`{sum+= $1} END {if (NR > 0) print sum / NR }` product.0262181533.txt 
+ 1272  awk '{ sum += $1; n++ } END { if (n > 0) print sum / n; }' product.0262181533.txt 
+ 1273  crontab -e 
+ 1274  head cron_tab.txt
+ 1275  awk '{ sum += $1; n++ } END { if (n > 0) print sum / n; }' product.0262181533.txt 
+ 1276  head cron_tab.txt
+ 1277  cat cron_tab.txt 
+ 1278  ls crontab
+ 1279  crontab -e `
+ 1280  crontab -e
+ 1281  crontab -e `
+ 1282  datetime=date +"%m-%d-%y"
+ 1283  datetime="$(date)"
+ 1284  echo datetime
+ 1285  echo $datetime
+ 1286  datetime=date + "%m-%d-%y"
+ 1287  date +'%m/%d/%Y'
+ 1288  echo product.0262181533." `date + "%m-%d-%y"`"
+ 1289  echo product.0262181533." `date + "%m-%d"`"
+ 1290  echo product.0262181533.txt" `date + "%m-%d"`"
+ 1291  echo product.0262181533.txt "`date + "%m-%d"`"
+ 1292  echo product.0262181533."`date + "%m-%d"`"
+ 1293  echo product.0262181533.-"`date +"%d-%m-%Y"`"
+ 1294  cp PRODUCTS/productID.txt PRODUCTS/productID."`date +"%d-%m-%Y"`".txt
+ 1295  cp product.0262181533.txt PRODUCTS/productID."`date +"%d-%m-%Y"`".txt
+ 1296  datetime="$(date)"
+ 1297  echo $datetime
+ 1298  touch PRODUCTS/0262181533."`date +"%d-%m-%Y"`".txt
+ 1299  touch PRODUCTS.0262181533."`date +"%d-%m-%Y"`".txt
+ 1300  cp product.0262181533.txt PRODUCTS.0262181533."`date +"%d-%m-%Y"`".txt
+ 1301  echo $'' >> PRODUCTS.0262181533."`date +"%d-%m-%Y"`".txt
+ 1302  head PRODUCTS.0262181533.13-10-2021.txt 
+ 1303  echo '' >> PRODUCTS.0262181533."`date +"%d-%m-%Y"`".txt
+ 1304  head PRODUCTS.0262181533.13-10-2021.txt 
+ 1305  echo '2' >> PRODUCTS.0262181533."`date +"%d-%m-%Y"`".txt
+ 1306  head PRODUCTS.0262181533.13-10-2021.txt 
+ 1307  tail PRODUCTS.0262181533.13-10-2021.txt
+ 1308  vi PRODUCTS.0262181533.13-10-2021.txt 
+ 1309  tail PRODUCTS.0262181533.13-10-2021.txt
+ 1310  touch Product.LATEST.txt
+ 1311  ln -s PRODUCTS.0262181533.13-10-2021.txt Product.LATEST.txt
+ 1312  ln -s PRODUCTS.0262181533.13-10-2021.txt Product.LATEST.0262181533.txt
+ 1313  ls Product.LATEST.0262181533.txt
+ 1314  cat Product.LATEST.0262181533.txt 
+ 1315  crontab -e 
+ 1316  touch products.0262181533.AVGRATING.txt
+ 1317  crontab -e 
+ 1318  head products.0262181533.AVGRATING.txt 
+ 1319  crontab -e 
+ 1320  head products.0262181533.AVGRATING.txt 
+ 1321  sed -e $'s/,/\\\n/g' product_samples.txt 
+ 1322  sed -e $'s/./\\\n/g' product_samples.txt 
+ 1323  ls
+ 1324  head product_samples.txt 
+ 1325  sed -e $'s/;/\\\n/g' product_samples.txt 
+ 1326  sed 's/and//g' product_samples.txt 
+ 1327  sed 's/or//g' product_samples.txt 
+ 1328  sed 's/if//g' product_samples.txt 
+ 1329  sed 's/in//g' product_samples.txt 
+ 1330  sed 's/it//g'
+ 1331  sed 's/it//g' product_samples.txt 
+ 1332  sed -e 's/<[^>]*>//g' product_samples.txt 
+ 1333  head -n 1 product_samples.txt 
+ 1334  awk '{print $13}' > review_body.txt
+ 1335  awk '{print $13}' product_samples.txt > review_body.txt
+ 1336  head review_body.txt 
+ 1337   review_body.txt
+ 1338  head review_body.txt 
+ 1339  head product_samples.txt 
+ 1340  head -n 2 product_samples.txt 
+ 1341  head -1 product_samples.txt 
+ 1342  tail -n+2  product_samples.txt 
+ 1343  tail -n+2  product_samples.txt > review_body.txt 
+ 1344  crontab -e
+ 1345  head cron_tab.txt
+ 1346  pwd
+ 1347  crontab -e
+ 1348  ls
+ 1349  head cron_tab.txt
+ 1350  crontab -e
+ 1351  script ws6.txt
+ 1352  ls
+ 1353  git clone https://github.com/S-phan/Worksheet-6.git
+ 1354  cd Worksheet-6 
+ 1355  cd ..
+ 1356  cp ws6.txt Worksheet-6/
+ 1357  cp Product.LATEST.0262181533.txt Worksheet-6/
+ 1358  ls Worksheet-6/
+ 1359  cd ..
+ 1360  pwd
+ 1361  cd~
+ 1362  pwd
+ 1363  ls
+ 1364  cd phans
+ 1365  ls
+ 1366  cp products.0262181533.AVGRATING.txt Worksheet-6/
+ 1367  ls Worksheet-6/
+ 1368  cp PRODUCTS.0262181533.13-10-2021.txt Worksheet-6/
+ 1369  cd Worksheet-6/
+ 1370  git status
+ 1371  git add . 
+ 1372  git commit -m "completed wsk 6"
+ 1373  git push https://github.com/S-phan/Worksheet-6.git
+ 1374  cd ..
+ 1375  head productid_top3.txt 
+ 1376  head product_id.txt
+ 1377  head -n 1 amazon_reviews_us_Books_v1_02.tsv
+ 1378  head amazon_reviews_us_Books_v1_02.tsv 
+ 1379  grep 0525947647
+ 1380  head
+ 1381  head amazon_reviews_us_Books_v1_02.tsv 
+ 1382  head -n 1 amazon_reviews_us_Books_v1_02.tsv
+ 1383  head -n 2 amazon_reviews_us_Books_v1_02.tsv
+ 1384  head -n 3 amazon_reviews_us_Books_v1_02.tsv 
+ 1385  head -n 2 amazon_reviews_us_Books_v1_02.tsv 
+ 1386  head -n 2 amazon_reviews_us_Books_v1_02.tsv > product_samples.txt
+ 1387  script ws7.txt
+ 1388  git clone https://github.com/S-phan/Worksheet-7.git
+ 1389  ls
+ 1390  history > cmds.log
+ 1391  cp cmds.log Worksheet-6/
+ 1392  cp cmds.log Worksheet-7/
+ 1393  cp ws7.txt Worksheet-7/
+ 1394  cp product_samples.txt Worksheet-7/
+ 1395  cd Worksheet-6/
+ 1396  /
+ 1397  phans@f6linux17:~/Worksheet-6$
+ 1398  git status
+ 1399  git add .
+ 1400  fit commit -m "history file"
+ 1401  git commit -m "history file"
+ 1402  git push https://github.com/S-phan/Worksheet-6.git
+ 1403  cd ..
+ 1404  cd Worksheet-7/
+ 1405  git status
+ 1406  git add .
+ 1407  git commit -m " completed hw set for worksheet 7"
+ 1408  git push https://github.com/S-phan/Worksheet-7.git
+ 1409  head -n 3 amazon_reviews_us_Books_v1_02.tsv > review_body.txt
+ 1410  sed -i 's/<[a-z][a-z] \/>//g' review_body.txt
+ 1411  sed -i 's/<.._\>//g' review_body.txt
+ 1412  head review_body.txt
+ 1413  sed -e $'s/,/\\\n/g'
+ 1414  sed -e $'s/,/\\\n/g' review_body.txt 
+ 1415  sed 's/and//g' review_body.txt 
+ 1416  sed 's/or//g' review_body.txt 
+ 1417  sed 's/if//g' review_body.txt 
+ 1418  sed 's/in//g' review_body.txt 
+ 1419  sed 's/it//g' review_body.txt 
+ 1420  sed -e 's/<[^>]*>//g' review_body.txt 
+ 1421  sed -e $'s/./\\\n/g' review_body.txt 
+ 1422  vi review_body.txt 
+ 1423  sed -e $'s/./\\\n/g' review_body.txt 
+ 1424  sed “s/,//g” review_body.txt 
+ 1425  'sed “s/,//g” review_body.txt' 
+ 1426  sed “s/,//g” review_body.txt 
+ 1427  sed 's/,//g' review_body.txt 
+ 1428  sed 's/,//g' review_body.txtv
+ 1429  sed 's/,//g' review_body.txt
+ 1430  sed “s/\.//g” review_body.txt 
+ 1431  sed 's/\.//g' review_body.txt 
+ 1432  sed -e 's/<[^>]*>//g' review_body.txt 
+ 1433  sed 's/\.//g' review_body.txt 
+ 1434  head review_body.txt 
+ 1435  awk '{print $14}' amazon_reviews_us_Books_v1_02.tsv > review_body.txt 
+ 1436  head review_body.txt 
+ 1437  vi review_body.txt 
+ 1438  tr --delete '\n' < review_body.txt 
+ 1439  cat review_body.txt |  tr -d "\n" > review_body.txt 
+ 1440  head review_body.txt 
+ 1441  awk '{print $14}' amazon_reviews_us_Books_v1_02.tsv > review_body.txt 
+ 1442  head -n 5 amazon_reviews_us_Books_v1_02.tsv 
+ 1443  >sed -n 3 amazon_reviews_us_Books_v1_02.tsv 
+ 1444  sed -n 3 amazon_reviews_us_Books_v1_02.tsv 
+ 1445  sed -n 1 amazon_reviews_us_Books_v1_02.tsv 
+ 1446  head amazon_reviews_us_Books_v1_02.tsv 
+ 1447  sed -n 4p amazon_reviews_us_Books_v1_02.tsv > review_body.txt 
+ 1448  head review_body.txt 
+ 1449  sed -n 3p amazon_reviews_us_Books_v1_02.tsv > review_body.txt 
+ 1450  head review_body.txt 
+ 1451  head -n 3 amazon_reviews_us_Books_v1_02.tsv > review_body.txt 
+ 1452  head review_body.txt 
+ 1453  sed -i 's/<[a-z][a-z] \/>//g' review_body.txt 
+ 1454  head review_body.txt 
+ 1455  vi review_body.txt 
+ 1456  sed -i 's/<.._\>//g' review_body.txt 
+ 1457  head review_body.txt 
+ 1458  history
+ 1459  ls
+ 1460  script ws7.txt
+ 1461  head -n 3 amazon_reviews_us_Books_v1_02.tsv > review_body.txt
+ 1462  vi review_body.txt 
+ 1463  head -n 3 amazon_reviews_us_Books_v1_02.tsv > review_body.txt
+ 1464  vi review_body.txt 
+ 1465  head -n 4 amazon_reviews_us_Books_v1_02.tsv > review_body.txt
+ 1466  vi review_body.txt 
+ 1467  head amazon_reviews_us_Books_v1_02.tsv 
+ 1468  head -n 2 amazon_reviews_us_Books_v1_02.tsv > review_body.txt
+ 1469  head -n 2 amazon_reviews_us_Books_v1_02.tsv 
+ 1470  head -n 3 amazon_reviews_us_Books_v1_02.tsv 
+ 1471  head -n 5 amazon_reviews_us_Books_v1_02.tsv 
+ 1472  head -n 5 amazon_reviews_us_Books_v1_02.tsv > review_body.txt 
+ 1473  sed -i 's/<[a-z][a-z] \/>//g' review_body.txt
+ 1474  vi review_body.txt 
+ 1475  sed -e $'s/;/\\\n/g' review_body.txt 
+ 1476  sed $'s/;/\\\n/g' review_body.txt 
+ 1477  sed $'s/./\\\n/g' review_body.txt 
+ 1478  sed 's/\.//g' review_body.txt 
+ 1479  sed 's/\.//g' review_body.txt >1_review_body.txt 
+ 1480  sed -i 's/<[a-z][a-z] \/>//g' 1_review_body.txt 
+ 1481  sed -e 's/<[a-z][a-z] \/>//g' 1_review_body.txt 
+ 1482  sed 's/\,//g' 1_review_body.txt 
+ 1483  vi 1_review_body.txt 
+ 1484  sed -i 's/<.._\>//g' review_body.txt 
+ 1485  sed -i 's/<.._\>//g' 1_review_body.txt 
+ 1486  sed -e 's/<[^>]*>//g' 1_review_body.txt 
+ 1487  sed 's/<[^>]*>//g' 1_review_body.txt 
+ 1488  sed 's/and//g' 1_review_body.txt 
+ 1489  vi 1_review_body.txt 
+ 1490  sed -e 's/and//g' 1_review_body.txt 
+ 1491  vi 1_review_body.txt 
+ 1492  sed 's/\<and\>//g' 1_review_body.txt 
+ 1493  vi 1_review_body.txt 
+ 1494  sed -i 's/\<and\>//g' 1_review_body.txt 
+ 1495  head -n 5 amazon_reviews_us_Books_v1_02.tsv > review_body.txt 
+ 1496  sed -i 's/<[a-z][a-z] \/>//g' review_body.txt
+ 1497  sed -i 's/<.._\>//g' review_body.txt
+ 1498  head review_body.txt 
+ 1499  sed -i $'s/,/\\\n/g' review_body.txt 
+ 1500  sed -i $'s/./\\\n/g'review_body.tx
+ 1501  sed -i $'s/./\\\n/g'review_body.txt
+ 1502  sed -i $'s/;/\\\n/g'review_body.txt
+ 1503  sed -i 's/;//g' review_body.txt
+ 1504  head review_body.txt 
+ 1505  sed -i 's/.//g' review_body.txt
+ 1506  sed -i 's/,//g' review_body.txt
+ 1507  head review_body.txt 
+ 1508  vi review_body.txt 
+ 1509  head -n 5 amazon_reviews_us_Books_v1_02.tsv > review_body.txt
+ 1510  head review_body.txt 
+ 1511  sed -i 's/<[a-z][a-z] \/>//g' review_body.txt
+ 1512  head review_body.txt 
+ 1513  sed -i 's/<.._\>//g' review_body.txt
+ 1514  head review_body.txt 
+ 1515  sed -i 's/;//g' review_body.txt 
+ 1516  head review_body.txt 
+ 1517  sed -i 's/,//g' review_body.txt
+ 1518  sed -i 's/.//g' review_body.txt
+ 1519  head review_body.txt 
+ 1520  head -n 5 amazon_reviews_us_Books_v1_02.tsv > review_body.txt
+ 1521  head review_body.txt
+ 1522  ```bash
+ 1523  head -n 3 amazon_reviews_us_Books_v1_02.tsv > review_body.txt
+ 1524   2007  head review_body.txt
+ 1525   2008  sed -i 's/<[a-z][a-z] \/>//g' review_body.txt
+ 1526   2009  head review_body.txt
+ 1527   2010  vi review_body.txt
+ 1528   2011  sed -i 's/<.._\>//g' review_body.txt
+ 1529   2012  head review_body.txt
+ 1530  sed -i $'s/,/\\\n/g' #remove comma 
+ 1531  sed -i $'s/./\\\n/g' review_body.txt #remove dot 
+ 1532  sed -i $'s/;/\\\n/g'review_body.txt #remove semi dot
+ 1533  sed -i 's/and//g' review_body.txt
+ 1534  sed 's/or//g' review_body.txt
+ 1535  sed 's/if//g' review_body.txt
+ 1536  sed 's/in//g' review_body.txt
+ 1537  sed 's/it//g'
+ 1538  sed -i 's/,//g' review_body.txt
+ 1539  sed -i 's/;//g' review_body.txt
+ 1540  sed -i 's/\.//g' review_body.txt
+ 1541  head -n 5 amazon_reviews_us_Books_v1_02.tsv > review_body.txt
+ 1542  head review_body.txt 
+ 1543  sed -i 's/<[a-z][a-z] \/>//g' review_body.txt
+ 1544  head review_body.txt 
+ 1545  sed -i 's/<.._\>//g' review_body.txt
+ 1546  head review_body.txt 
+ 1547  sed -i 's/\.//g' review_body.txt
+ 1548  head review_body.txt 
+ 1549  sed -i 's/;//g' review_body.txt
+ 1550  sed -i 's/,//g' review_body.txt
+ 1551  sed -i 's/and//g' review_body.txt
+ 1552  sed -i "s/\<$i\>//g" 1_review_body.txt 
+ 1553  head 1_review_body.txt 
+ 1554  vi 1_review_body.txt 
+ 1555  head -n 1 1_review_body.txt 
+ 1556  awk '{print $14}' 1_review_body.txt > only_review_body.txt 
+ 1557  head only review_body.txt 
+ 1558  script ws7.txt
+ 1559  ls
+ 1560  cd Worksheet-7/
+ 1561  ls
+ 1562  rm ws7.txt 
+ 1563  rm product_samples.txt
+ 1564  rm cmds.log
+ 1565  cd ..
+ 1566  cp review_body.txt Worksheet-7/
+ 1567  cp 1_review_body.txt Worksheet-7/
+ 1568  history > cmds.log 
+ 1569  cp cmds.log Worksheet-7/
+ 1570  cp only_review_body.txt Worksheet-7/
+ 1571  cd Worksheet-7/
+ 1572  git status
+ 1573  git add . 
+ 1574  cd ..
+ 1575  cp ws7.txt Worksheet-7/
+ 1576  cd Worksheet-7
+ 1577  ls
+ 1578  git status
+ 1579  git add .
+ 1580  git commit -m " revised hw"
+ 1581  git push https://github.com/S-phan/Worksheet-7.git
+ 1582  ls
+ 1583  cd Assignment-2
+ 1584  ls
+ 1585  cd ..
+ 1586  head customerId_helpfulness_100.txt
+ 1587  head  customerID_helpfulness_100.txt
+ 1588  head customer_and_helpful.txt
+ 1589  head  product_id_helpfulness.txt
+ 1590  head product_id.txt.txt 
+ 1591  vi product_id.txt.txt
+ 1592  cd~
+ 1593  pwd
+ 1594  139
+ 1595  awk '{ sum += $2; n++ } END { if (n > 0) print sum / n; }' product_id.txt.txt
+ 1596  head product_id.txt.txt 
+ 1597  awk '{ sum += $2; n++ } END { if (n > 0) print sum / n; }' product_id.txt.txt
+ 1598  awk '{ sum += $1; n++ } END { if (n > 0) print sum / n; }' product_id.txt.txt
+ 1599  touch mediantest.txt
+ 1600  vi mediantest.txt
+ 1601  awk '{ sum += $1; n++ } END { if (n > 0) print sum / n; }' mediantest.txt 
+ 1602  xxd -r -p mediantest.txt > binary_dump
+ 1603  head binary_dump 
+ 1604  pwd
+ 1605  xxd binary_dump 
+ 1606  xxd -c \ mediantest.txt > binary_dump
+ 1607  xxd -c  mediantest.txt > binary_dump
+ 1608  bc mediantest.txt 
+ 1609  printf "%s %08d 0x%02x\n" "$1" $(bc <<< "ibase=10;obase=2;$1") "$1"
+ 1610  printf "%s %08d 0x%02x\n" "$1" $(bc <<< "ibase=10;obase=2;$1") "$1" mediantest.txt 
+ 1611  printf "%s %08d 0x%02x\n" "$1" $(bc <<< "ibase=10;obase=2;$1") "$1" 
+ 1612  for i in `mediantest.txt`, do printf "%s %08d 0x%02x\n" "$i" $(bc <<< "ibase=10;obase=2;$i") "$i"; done
+ 1613  for i in 'mediantest.txt'; do printf "%s %08d 0x%02x\n" "$i" $(bc <<< "ibase=10;obase=2;$i") "$i"; done
+ 1614  for i in 'mediantest.txt'; do printf "%s %08d 0x%02x\n" "$1" $(bc <<< "ibase=10;obase=2;$i") "$1"; done
+ 1615  printf "%s %08d 0x%02x\n" "$1" $(bc <<< "ibase=10;obase=2;$1") "$1" 
+ 1616  printf "%s %08d 0x%02x\n" "$1" $(bc <<< "ibase=10;obase=2;$1") "$1" mediantest.txt 
+ 1617  printf "%s %08d 0x%02x\n" "$1" $(bc <<< "ibase=10;obase=2;$1") mediantest.txt 
+ 1618  printf "%s %08d 0x%02x\n" "$1" $(bc <<< "ibase=10;obase=2;$1") "mediantest.txt"
+ 1619  for i 'mediantest.txt'; do printf "%s %08d 0x%02x\n" "$1" $(bc <<< "ibase=10;obase=2;$i") "$1"; done
+ 1620  for i in 'mediantest.txt'; do printf "%s %08d 0x%02x\n" "$1" $(bc <<< "ibase=10;obase=2;$i") "$1"; done
+ 1621  for i in 'mediantest.txt'; do printf "%s %08d 0x%02x\n" "$1" $(bc >>> "ibase=10;obase=2;$i") "$1"; done
+ 1622  for i in 'mediantest.txt'; do printf "%s %08d 0x%02x\n" "$1" $(bc < "ibase=10;obase=2;$i") "$1"; done
+ 1623  for i in 'mediantest.txt'; do printf "%s %08d 0x%02x\n" "$1" $(bc <<< "ibase=10;obase=2;$i") "$1"; done
+ 1624  head mediantest.txt 
+ 1625  for i in 'mediantest.txt'; do printf "%s %08d 0x%02x\n" "$1" ; done
+ 1626  for i in `mediantest.txt`; do printf "%s %08d 0x%02x\n" "$i" $(bc <<< "ibase=10;obase=2;$i") "$i"; done
+ 1627  for i in `mediantest.txt`; do printf("%s %s %x\n", $1, bits2str($1), $1); done
+ 1628  awk -f awkscr.awk mediantest.txt 
+ 1629  echo mediantest.txt 
+ 1630  cat mediantest.txt| bc 
+ 1631  echo "obase=2;mediantest.txt"| bc 
+ 1632  echo "obase=2 ; mediantest.txt"| bc 
+ 1633  awk '{print "ibase=10;obase=2;" $1}' mediantest.txt | bc | xargs printf "%08d\n"
+ 1634  ls
+ 1635  head -n 1 amazon_reviews_us_Books_v1_02.tsv
+ 1636  awk '{print $2,$9,$10} > ID_help_votes.txt
+ 1637  awk '{print $2,$9,$10}' > ID_help_votes.txt
+ 1638  awk '{print $2,$9,$10}' amazon_reviews_us_Books_v1_02.tsv> ID_help_votes.txt
+ 1639  head ID_help_votes.txt 
+ 1640  awk -F '{print $2,$9,$10}' amazon_reviews_us_Books_v1_02.tsv> ID_help_votes.txt
+ 1641  awk '{print $2,$9}' amazon_reviews_us_Books_v1_02.tsv> ID_help_votes.txt
+ 1642  head ID_help_votes.txt 
+ 1643  awk '{print $2,$10}' amazon_reviews_us_Books_v1_02.tsv> ID_help_votes.txt
+ 1644  head ID_
+ 1645  head ID_help_votes.txt 
+ 1646  awk '{print $9}' amazon_reviews_us_Books_v1_02.tsv> ID_help_votes.txt
+ 1647  head ID_
+ 1648  head ID_help_votes.txt 
+ 1649  head amazon_reviews_us_Books_v1_02.tsv 
+ 1650  cut -d " " -f 9 amazon_reviews_us_Books_v1_02.tsv | head
+ 1651  cut -d " " -f 9 amazon_reviews_us_Books_v1_02.tsv 
+ 1652  cut -d "" -f 9 amazon_reviews_us_Books_v1_02.tsv 
+ 1653  phans@f6linux17:~$ ^C
+ 1654  cut -f 9 amazon_reviews_us_Books_v1_02.tsv
+ 1655  awk '{print $9}'
+ 1656  awk '{print $9}' amazon_reviews_us_Books_v1_02.tsv 
+ 1657  head -n 1 amazon_reviews_us_Books_v1_02.tsv
+ 1658  cut -d "     " -f 2,9,10 amazon_reviews_us_Books_v1_02.tsv > ID_help_vote.txt
+ 1659  cut -d "     " 2,9,10 amazon_reviews_us_Books_v1_02.tsv > ID_help_vote.txt
+ 1660  cut -d "     " -f 2,9,10 amazon_reviews_us_Books_v1_02.tsv > ID_help_vote.txt
+ 1661  cut "     " -f 2,9,10 amazon_reviews_us_Books_v1_02.tsv > ID_help_vote.txt
+ 1662  cut -d "	"-f 2,9,10 amazon_reviews_us_Books_v1_02.tsv > ID_help_vote.txt
+ 1663  cut -d "	" -f 2,9,10 amazon_reviews_us_Books_v1_02.tsv > ID_help_vote.txt
+ 1664  head ID_help_vote.txt
+ 1665  cut -d "	" -f 4,9,10 amazon_reviews_us_Books_v1_02.tsv > product_help_vote.txt
+ 1666  head product_help_vote.txt 
+ 1667  ls
+ 1668  mkdir Ass2
+ 1669  ls
+ 1670  cd Ass2
+ 1671  head -n 1 amazon_reviews_us_Books_v1_02.tsv
+ 1672  cd..
+ 1673  cd ..
+ 1674  head -n 1 amazon_reviews_us_Books_v1_02.tsv
+ 1675  awk -F "\t" '{print $2}' amazon_reviews_us_Books_v1_02.tsv | sort | uniq | wc
+ 1676  awk -F "\t" '{print $2}' amazon_reviews_us_Books_v1_02.tsv  | sort | uniq -c | sort -n -r | head -n 100  > top100customers
+ 1677  for i in `cat top100customers | awk '{print $2}'` ; do echo "$i"; grep $i amazon_reviews_us_Books_v1_02.tsv | awk -F "\t" '{print $8,$9}' > ~/customers/$i.txt ; done
+ 1678  ls
+ 1679  cd customers
+ 1680  ls
+ 1681  cd ..
+ 1682  mkdir products
+ 1683  cd products
+ 1684  ls
+ 1685  cd ..
+ 1686  mkdir product
+ 1687  awk -F "\t" '{print $4}' amazon_reviews_us_Books_v1_02.tsv  | sort | uniq -c | sort -n -r | head -n 100  > top100products
+ 1688  for i in `cat top100products | awk '{print $2}'` ; do echo "$i"; grep $i amazon_reviews_us_Books_v1_02.tsv | awk -F "\t" '{print $8,$9}' > ~/product/$i.txt   ; done
+ 1689  cd product
+ 1690  ls
+ 1691  awk '{if (int($median) < int($2)) print $1,1 ; else print $1,0}
+ 1692  vi 0060582510.txt 
+ 1693  cd product
+ 1694  sort -n -k 1 0060582510.txt | awk '{ a[i++]=$1 } END { print a[int(i/2)]; }'
+ 1695  awk '{if (int($median) < int($2)) print $1,1 ; else print $1,0} ' 0060582510.txt  > 0060582510.Binary.txt 
+ 1696  vi 0060582510.Binary.txt 
+ 1697  ../datamash-1.3/datamash -W ppearson 1:2 < 0060582510.Binary.txt 
+ 1698  gnuplot
+ 1699  ls 
+ 1700  sort 0060582510.Binary.txt > 0060582510.Binary.txt.sorted.txt
+ 1701  awk '{print NR, $1}' 0060582510.Binary.txt.sorted.txt > 0060582510.Binary.txt.sorted.txt.rating
+ 1702  awk '{print NR, $1}' 0060582510.Binary.txt.sorted.txt > 00682510.Binary.txt.sorted.txt.rating
+ 1703  cd product
+ 1704  awk '{print NR, $1}' 0060582510.Binary.txt.sorted.txt > 0060582510.Binary.txt.sorted.txt.rating
+ 1705  awk '{print NR, $2}' 0060582510.Binary.txt.sorted.txt > 0060582510.Binary.txt.sorted.txt.helpful
+ 1706  cd product
+ 1707  ls
+ 1708  plot '0060582510.Binary.txt.sorted.txt.helpful' with linespoints linestyle 1 linecolor 7 title "helpful", '0060582510.Binary.txt.sorted.txt.rating' with linepoints linestyle 1 linecolor 5 title "rating"
+ 1709  install plotutils
+ 1710  sudo apt-get update -y
+ 1711  sudo apt-get install -y plotutils
+ 1712  gnuplot
+ 1713  apt install gnuplot-nox
+ 1714  apt install gnuplot-qt
+ 1715  cd ..
+ 1716  gnuplot
+ 1717  sudo apt-get install libncurses5-dev
+ 1718  sudo apt-get install ncurses-dev
+ 1719  cd product
+ 1720  sort -n -k 1 0060582510.txt | awk '{ a[i++]=$1 } END { print a[int(i/2)]; }'
+ 1721  awk '{if (int($median) < int($2)) print $1,1 ; else print $1,0} ' 0060582510.txt  > 0060582510.Binary.txt
+ 1722  ../datamash-1.3/datamash -W ppearson 1:2 < 0060582510.Binary.txt
+ 1723  ls
+ 1724  vi 0060582510.Binary.txt 
+ 1725  cd ..
+ 1726  ls
+ 1727  cd customers
+ 1728  ls
+ 1729  sort -n -k 1 20595117.txt | awk '{ a[i++]=$1 } END { print a[int(i/2)]; }'
+ 1730  awk '{if (int($median) < int($2)) print $1,1 ; else print $1,0} ' 0060582510.txt  > 0060582510.Binary.txt
+ 1731  awk '{if (int($median) < int($2)) print $1,1 ; else print $1,0} ' 20595117.txt  > 20595117.Binary.txt
+ 1732  vi 20595117.Binary.txt 
+ 1733  sort 20595117.Binary.txt > 20595117.Binary.txt.sorted.txt
+ 1734  awk '{print NR, $1}' 20595117.Binary.txt.sorted.txt > 20595117.Binary.txt.sorted.txt.rating
+ 1735  awk '{print NR, $2}' 20595117.Binary.txt.sorted.txt > 20595117.Binary.txt.sorted.txt.helpful
+ 1736  cd ..
+ 1737  cd product
+ 1738  awk '{print NR, $1}' 0060582510.Binary.txt.sorted.txt > 0060582510.Binary.txt.sorted.txt.rating
+ 1739  awk '{print NR, $2}' 0060582510.Binary.txt.sorted.txt > 0060582510.Binary.txt.sorted.txt.helpful
+ 1740  cd ..
+ 1741  gnuplot
+ 1742  apt install gnuplot-nox
+ 1743  apt install gnuplot-qt
+ 1744  echo unable to download gnuplot
+ 1745  echo question 7 yes there is more meaning since you can better compare the data point to eachother
+ 1746  awk -F "\t" '{print $14}' amazon_reviews_us_Books_v1_02.tsv | head -n 20 > review_body1.txt
+ 1747  sed -e 's/<[^>]*>//g' review_body1.txt
+ 1748  sed -i 's/<[^>]*>//g' review_body1.txt 
+ 1749  sed 's/or//g' review_body1.txt
+ 1750  sed -i 's/or//g' review_body1.txt
+ 1751  sed -i 's/and//g' review_body1.txt
+ 1752  sed -i 's/it//g' review_body1.txt
+ 1753  sed -i 's/in//g' review_body1.txt
+ 1754  sed -i 's/if//g' review_body1.txt
+ 1755  tr " " "\n" < review_body1.txt | sort | uniq -c
+ 1756  tr " " "\n" < review_body1.txt | sort | uniq -c | sort -n
+ 1757  sed -i 's/the//g' review_body1.txt
+ 1758  sed -i 's/of//g' review_body1.txt
+ 1759  sed -i 's/to//g' review_body1.txt
+ 1760  sed -i 's/that//g' review_body1.txt
+ 1761  sed -i 's/is//g' review_body1.txt
+ 1762  sed -i 's/this//g' review_body1.txt
+ 1763  tr " " "\n" < review_body1.txt | sort | uniq -c | sort -n
+ 1764  sed -i 's/a//g' review_body1.txt
+ 1765  sed -i 's/th//g' review_body1.txt
+ 1766  sed -i 's/f//g' review_body1.txt
+ 1767  tr " " "\n" < review_body1.txt | sort | uniq -c | sort -n
+ 1768  gnuplot
+ 1769  apt install gnuplot-nox
+ 1770  su root
+ 1771  su - root
+ 1772  su -
+ 1773  sudo -i
+ 1774  su
+ 1775  sudo passwd root
+ 1776  ile.  This incident will be reported.
+ 1777  phans@f6linux17:~$
+ 1778  usermod -a -G sudo phans
+ 1779  sudo nano /etc/sudoers
+ 1780  awk -F "\t" '{print $14}' amazon_reviews_us_Books_v1_02.tsv | head -n 10 > review_body1.txt
+ 1781  head -n 10 review_body.txt 
+ 1782  awk -F "\t" '{print $14}' amazon_reviews_us_Books_v1_02.tsv | head -n 10 > review_body1.txt
+ 1783  tr " " "\n" < review_body1.txt | sort | uniq -c
+ 1784  tr " " "\n" < review_body1.txt | sort | uniq -c | sort -n | less
+ 1785  script a3.txt
+ 1786  history > cmds.log 
+ 1787  vi a3.txt
+ 1788  git clone https://github.com/S-phan/Assignments-3-.git
+ 1789  cp a3.txt cmds.log Assignments-3-/
+ 1790  cd  Assignments-3-/
+ 1791  ls
+ 1792  cd ..
+ 1793  ls
+ 1794  cd Assignments-3-
+ 1795  git status
+ 1796  git add .
+ 1797  git commit -m " assignment 3"
+ 1798  git push https://github.com/S-phan/Assignments-3-.git
+ 1799  wget http://ftp.cstug.cz/pub/CTAN/graphics/gnuplot/5.2.6/gnuplot-5.2.6.tar.gz
+ 1800  gunzip gnuplot-5.2.6.tar.gz
+ 1801  tar xvf gnuplot-5.2.6.tar
+ 1802  ./configure
+ 1803  make
+ 1804  cd ~
+ 1805  history
+ 1806  cd product
+ 1807  ls
+ 1808  cd..
+ 1809  cd ..
+ 1810  cd gnuplot-5.2.6/
+ 1811  plot '0060582510.Binary.txt.sorted.txt.helpful' with linespoints linestyle 1 linecolor 7 title "helpful", '0060582510.Binary.txt.sorted.txt.rating' with linepoints linestyle 1 linecolor 5 title "rating"
+ 1812  apt install plotutils
+ 1813  plot exp(-x**2 / 2)
+ 1814  plot [-4:4] exp(-x**2 / 2), x**2 / 16
+ 1815  plot sin(x)/x
+ 1816  plot '0060392452.txt.BINARY.txt.sorted.helpful' with linespoints linestyle 1 linecolor 7 title "helpful", '0060392452.txt.BINARY.txt.sorted.ratings' with linespoints linestyle 1 linecolor 6 title "rating"
+ 1817  whereis gnuplot
+ 1818  ls
+ 1819  cd product
+ 1820  whereis gnuplot
+ 1821  wget http://ftp.cstug.cz/pub/CTAN/graphics/gnuplot/5.2.6/gnuplot-5.2.6.tar.gz
+ 1822  cd gnuplot-5.2.6/
+ 1823  ./configure
+ 1824  make check
+ 1825  ./src/gnuplot
+ 1826  cd ..
+ 1827  ls
+ 1828  cd gnuplot-5.2.6/
+ 1829  ls
+ 1830  gnuplot
+ 1831  cd ..
+ 1832  gnuplot
+ 1833  cd ..
+ 1834  gnuplot
+ 1835  cd gnuplot
+ 1836  ls
+ 1837  gnuplot
+ 1838  cd product
+ 1839  cd gnuplot-5.2.6/
+ 1840  vi install-sh 
+ 1841  plot
+ 1842  ./configure
+ 1843  ./src/gnuplot
+ 1844  cd ..
+ 1845  ./src/gnuplot
+ 1846  ls
+ 1847  cd gnuplot-5.2.6/
+ 1848  ./src/gnuplot
+ 1849  cd product
+ 1850  cd ..
+ 1851  cd product
+ 1852  ls
+ 1853  cp 0060582510.Binary.txt.sorted.txt.helpful gnuplot-5.2.6
+ 1854  cp 0060582510.Binary.txt.sorted.txt.rating gnuplot-5.2.6
+ 1855  cd gnuplot-5.2.6/
+ 1856  cd ..
+ 1857  cd gnuplot-5.2.6/
+ 1858  ./src/gnuplot
+ 1859  cd ..
+ 1860  cd product 
+ 1861  ls
+ 1862  cd 0060582510.Binary.txt.sorted.txt.helpful ..
+ 1863  cd.. 0060582510.Binary.txt.sorted.txt.helpful
+ 1864  cp  0060582510.Binary.txt.sorted.txt.helpful/ ..
+ 1865  cp  0060582510.Binary.txt.sorted.txt.helpful ../
+ 1866  cd ..
+ 1867  ls
+ 1868  cd product
+ 1869  cp  0060582510.Binary.txt.sorted.txt.rating ../
+ 1870  cd ..
+ 1871  cd gnuplot-5.2.6/
+ 1872  ./src/gnuplot
+ 1873  cd ..
+ 1874  cd product
+ 1875  gnuplot-5.2.6/
+ 1876  ./src/gnuplot
+ 1877  cd gnuplot-5.2.6/
+ 1878  ./src/gnuplot
+ 1879  cd ..
+ 1880  ls
+ 1881  vi 0060582510.Binary.txt.sorted.txt.helpful
+ 1882  vi 0060582510.Binary.txt.sorted.txt.rating 
+ 1883  cd product
+ 1884  ls
+ 1885  head 0060582510.Binary.txt.sorted.txt   
+ 1886  vi 0060582510.Binary.txt.sorted.txt   
+ 1887  head 0060582510.txt
+ 1888  sort -n -k 1 0060582510.txt | awk '{ a[i++]=$1 } END { print a[int(i/2)]; }'
+ 1889  awk '{if (int($median) < int($2)) print $1,1 ; else print $1,0} ' 0060582510.txt
+ 1890  vi 0060582510.Binary.txt
+ 1891  ls
+ 1892  vi 0060582510.Binary.txt.sorted.txt
+ 1893  vi 0060582510.Binary.txt.sorted.txt| uniq > 0060582510.Binary.txt.sorted.uniq.txt
+ 1894  ls
+ 1895  cd product
+ 1896  ls
+ 1897  vi  0060582510.Binary.txt.sorted.uniq.txt
+ 1898  cat 0060582510.Binary.txt.sorted.txt| uniq > 0060582510.Binary.txt.sorted.uniq.txt 
+ 1899  vi 0060582510.Binary.txt.sorted.uniq.txt
+ 1900  ls
+ 1901  vi 0060582510.Binary.txt.sorted.txt
+ 1902  ls
+ 1903  vi 0060582510.Binary.txt.sorted.txt.rating
+ 1904  vi 0060582510.Binary.txt.sorted.txt.helpful
+ 1905  0060582510.Binary.txt
+ 1906  vi 0060582510.Binary.txt
+ 1907  cd ..
+ 1908  ls
+ 1909  head top100products 
+ 1910  head -n 1 amazon_reviews_us_Books_v1_02.tsv
+ 1911  cd product
+ 1912  ls
+ 1913  awk '{print NR, $1}' 0060582510.Binary.txt.sorted.txt > 0060582510.Binary.txt.sorted.txt.rating
+ 1914  head 0060582510.Binary.txt.sorted.txt.rating
+ 1915  vi 0060582510.Binary.txt.sorted.txt.rating
+ 1916  vi  00682510.Binary.txt.sorted.txt.rating
+ 1917  vi 0060582510.Binary.txt
+ 1918  head 0060582510.txt
+ 1919  cd product
+ 1920  sort -n -k 1 0060582510.txt | awk '{ a[i++]=$1 } END { print a[int(i/2)]; }'
+ 1921  head 0060582510.Binary.txt
+ 1922  awk '{if (int($median) < int($2)) print $1,1 ; else print $1,0} ' 0060582510.txt  > 0060582510.Binary.txt
+ 1923  awk '{if (int($median) < int($1)) print $1,1 ; else print $1,0} ' 0060582510.txt  > 0060582510.rating.Binary.txt
+ 1924  head 0060582510.rating.Binary.txt
+ 1925  tail 0060582510.rating.Binary.txt
+ 1926  awk '{if (int($median) < int($2)) print $1,1 ; else print $1,1} ' 0060582510.txt  > 0060582510.rating.Binary.txt
+ 1927  head 0060582510.rating.Binary.txt
+ 1928  vi 0060582510.rating.Binary.txt
+ 1929  awk '{if (int($median) < int($1)) print $1,1 ; else print $1,0} ' 0060582510.txt  > 0060582510.rating.Binary.txt
+ 1930  vi 0060582510.rating.Binary.txt
+ 1931  vi 0060582510.txt 
+ 1932  product
+ 1933  cd product
+ 1934  ls
+ 1935  vi 0060582510.Binary.txt.sorted.txt.rating 
+ 1936  ls
+ 1937  cd ..
+ 1938  cd customers/
+ 1939  ls
+ 1940  vi 20595117.Binary.txt.sorted.txt.helpful
+ 1941  vi 20595117.Binary.txt.sorted.txt.rating
+ 1942  head amazon_reviews_us_Books_v1_02.tsv 
+ 1943  head amazon_reviews_us_Books_v1_02.tsv | awk 'verified'
+ 1944  head amazon_reviews_us_Books_v1_02.tsv | awk '/verified/'
+ 1945  amazon_reviews_us_Books_v1_02.tsv | awk '/verified/'
+ 1946  cat amazon_reviews_us_Books_v1_02.tsv | awk '/verified/'
+ 1947  cat amazon_reviews_us_Books_v1_02.tsv | awk '/verified/' > verified.txt
+ 1948  head verified.txt 
+ 1949  awk '/verified/' amazon_reviews_us_Books_v1_02.tsv 
+ 1950  touch hello
+ 1951  vi hello
+ 1952  awk '/^hello1$/' hello
+ 1953  awk '/verified$/' amazon_reviews_us_Books_v1_02.tsv 
+ 1954  awk '/verified/' amazon_reviews_us_Books_v1_02.tsv 
+ 1955  awk '/verified/' amazon_reviews_us_Books_v1_02.tsv | uniq -c 
+ 1956  cat amazon_reviews_us_Books_v1_02.tsv | grep verified 
+ 1957  awk '/verified$/' amazon_reviews_us_Books_v1_02.tsv 
+ 1958  awk '/verified/' amazon_reviews_us_Books_v1_02.tsv > verified.txt 
+ 1959  tr " " "\n" < verified.txt | sort | uniq -c
+ 1960  tr " " "\n" < verified.txt | sort | uniq -c | head
+ 1961  tr " " "\n" < verified.txt | sort | uniq -c | tail
+ 1962  head -n 1 amazon_reviews_us_Books_v1_02.tsv
+ 1963  tr " " "\n" < verified.txt | sort -k14 | uniq -c | tail
+ 1964  tr " " "\n" < verified.txt | sort -k14 | uniq -c | head
+ 1965  tr " " "\n" < verified.txt | uniq -c | sort -k14 | head
+ 1966  tr " " "\n" < verified.txt | sort -k14 | uniq -c | head
+ 1967  tr " "\n" < verified.txt | sort -k14 | uniq -c | head
+ 1968  tr " "\n" < verified.txt | sort -k14 | uniq -c | head
+ 1969  tr " " " < verified.txt | sort -k14 | uniq -c | head
+ 1970  tr " " "\n" < verified.txt | sort -k14 | uniq -c | head
+ 1971  tr " " "\n" < verified.txt | sort -k14 | uniq -c > test.txt
+ 1972  vi test.txt
+ 1973  tr " " "\n" < verified.txt | sort -r -k14 | uniq -c > test.txt
+ 1974  vi test.txt
+ 1975  tr " " "\n" < verified.txt | sort -r -k14 | uniq -c -r > test.txt
+ 1976  tr " " "\n" < verified.txt | sort -n -k14 | uniq -c > test.txt
+ 1977  vi test
+ 1978  tr " " "\n" < verified.txt | sort -r -k14 | uniq -c -r > test.txt
+ 1979  tr " " "\n" < verified.txt | sort -r -k14 | uniq -c > test.txt
+ 1980  tr " " "\n" < verified.txt | sort -r -k14 | uniq -c | sort -n > test.txt
+ 1981  vi test.txt 
+ 1982  tail test.txt 
+ 1983  script ws8.txt
+ 1984  history > cmds.log 
